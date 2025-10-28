@@ -30,6 +30,14 @@ This was a group project, and my main contributions included:
 | Dependency | Version | Purpose |
 |-------------|----------|----------|
 | Java | 22 | Main programming language |
-| MySQL | 8.0.28 | Database (Docker container, default port 3306) |
+| MySQL | 8.0.28 | Database (Docker container) |
 | Hibernate Core | 5.4.24.Final | ORM for database persistence |
 | Gson | 2.11.0 | JSON serialization/deserialization |
+
+## Setup and Execution
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/Alvaro05RB/OOP_Project2025.git
+2. Start the MySQL Docker container (default port 3306, no password required).
+3. Run the project
+Open the project in your IDE (e.g., IntelliJ IDEA or Eclipse) and run App.java from the src/main/java directory.
