@@ -78,10 +78,7 @@ public class App {
         PlayerCommands.put(statisticShow.toString(), statisticShow);
 
         //Admin registration:
-        userController.createAdmin("Pafu", "12345678", "Álvaro", "Ribas");
-        userController.createAdmin("Dani", "12345678", "Daniel", "Rivera");
-        userController.createAdmin("DaniCLI", "12345678", "Daniel", "Bermúdez");
-        userController.createAdmin("APerez", "12345678", "Álvaro", "Pérez");
+        userController.createAdmin("ARibas", "12345678", "Álvaro", "Ribas");
 
         CLI cli = new CLI();
         String[] input;
